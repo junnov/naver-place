@@ -1,17 +1,20 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue"
 </script>
 
 <template>
   <div>
     <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
+      <img src="/vite.svg" class="logo inline" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <img src="./assets/vue.svg" class="logo vue inline" alt="Vue logo" />
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <div class="mx-auto p-4 bg-rose-600 text-white rounded-xl shadow-xl">
+    Tailwind.css Test
+  </div>
 </template>
 
 <style scoped>
